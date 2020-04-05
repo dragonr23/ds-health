@@ -1,0 +1,130 @@
+import pandas as pd
+
+
+#write one thing that takes in the different correct columns
+#it will also decide what columns are needed
+
+#TODO:DEMO
+SEQN - sequence number
+RIAGENDR - gender
+
+RIDAGEYR - Age in years at screening
+
+###must realize this analysis is only on us citizens
+
+
+#TODO: body_measures
+
+#if yes to any it is a tag
+
+SEQN - Respondent sequence number
+BMXWT - Weight (kg)
+BMXHT - Standing Height (cm)
+BMXBMI - Body Mass Index (kg/m**2)
+
+#TODO: current_health.csv
+
+
+SEQN - Respondent sequence number
+HSD010 - General health condition
+
+
+
+#TODO: medical_conditions
+
+SEQN - Respondent sequence number
+MCQ010 - Ever been told you have asthma
+MCQ160a - Doctor ever said you had arthritis
+MCQ160b - Ever told had congestive heart failure
+MCQ160c - Ever told you had coronary heart disease
+MCQ160d - Ever told you had angina/angina pectoris
+MCQ160e - Ever told you had heart attack
+MCQ160f - Ever told you had a stroke
+MCQ160m - Ever told you had thyroid problem
+MCQ160g - Ever told you had emphysema
+
+MCQ160k - Ever told you had chronic bronchitis
+
+
+MCQ160o - Ever told you had COPD?
+MCQ160l - Ever told you had any liver condition
+
+MCQ510a - Liver condition: Fatty liver
+MCQ510b - Liver condition: Liver fibrosis
+MCQ510c - Liver condition: Liver cirrhosis
+MCQ510d - Liver condition: Viral hepatitis
+MCQ510e - Liver condition: Autoimmune hepatitis
+MCQ510f - Liver condition: Other liver disease
+
+MCQ520 - Abdominal pain during past 12 months?
+
+MCQ550 - Has DR ever said you have gallstones
+
+
+MCQ203 - Ever been told you have jaundice?
+
+MCQ220 - Ever told you had cancer or malignancy
+MCQ230a - 1st cancer - what kind was it?
+
+MCQ230b - 2nd cancer - what kind was it?
+
+MCQ230c - 3rd cancer - what kind was it?
+
+MCQ230d - More than 3 kinds of cancer
+
+MCQ366a - Doctor told you to control/lose weight
+MCQ366b - Doctor told you to exercise
+MCQ366c - Doctor told you to reduce salt in diet
+MCQ366d - Doctor told you to reduce fat/calories
+MCQ371a - Are you now controlling or losing weight
+
+the below could be incorporated in some way
+
+MCQ371b - Are you now increasing exercise
+MCQ371c - Are you now reducing salt in diet
+MCQ371d - Are you now reducing fat in diet
+
+
+#TODO nutrition
+
+Honestly might need to increase this a bit
+
+SEQN - Respondent sequence number
+DBQ700 - How healthy is the diet
+
+
+#TODO physical_activity.csv
+
+SEQN - Respondent sequence number
+PAQ605 - Vigorous work activity
+PAQ610 - Number of days vigorous work
+PAD615 - Minutes vigorous-intensity work
+PAQ620 - Moderate work activity
+PAQ625 - Number of days moderate work
+PAD630 - Minutes moderate-intensity work
+PAQ635 - Walk or bicycle
+PAQ640 - Number of days walk or bicycle
+PAD645 - Minutes walk/bicycle for transportation
+PAQ650 - Vigorous recreational activities
+PAQ655 - Days vigorous recreational activities
+PAD660 - Minutes vigorous recreational activities
+PAQ665 - Moderate recreational activities
+PAQ670 - Days moderate recreational activities
+PAD675 - Minutes moderate recreational activities
+PAD680 - Minutes sedentary activity
+
+
+#TODO: sleeping_disorders
+
+
+SEQN - Respondent sequence number
+SLQ300 - Usual sleep time on weekdays or workdays
+SLQ310 - Usual wake time on weekdays or workdays
+SLD012 - Sleep hours - weekdays or workdays
+SLQ320 - Usual sleep time on weekends
+SLQ330 - Usual wake time on weekends
+SLD013 - Sleep hours - weekends
+
+
+
+
